@@ -1,0 +1,11 @@
+name: Publish Github Action
+description: Handles the versioning of a Github Action via appopriate tagging
+
+inputs:
+  github-token:
+    description: The value of secrets.GITHUB_TOKEN
+    required: true
+
+runs:
+  using: node12
+  main: index.js
