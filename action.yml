@@ -1,5 +1,5 @@
-name: Publish Github Action
-description: Handles the versioning of a Github Action via appopriate tagging
+name: Publish Shell Github Action
+description: Handles the versioning of a shell-only Github Action via appopriate tagging
 
 inputs:
   github-token:

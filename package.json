@@ -1,6 +1,7 @@
 {
   "private": true,
-  "version": "0.2.0",
+  "name": "publish-shell-action",
+  "version": "0.3.0",
   "dependencies": {
     "@actions/core": "1.4.0",
     "@actions/exec": "1.1.0",
